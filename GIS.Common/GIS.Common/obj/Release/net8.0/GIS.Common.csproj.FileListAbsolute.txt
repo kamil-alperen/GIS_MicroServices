@@ -1,0 +1,12 @@
+C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\bin\Release\net8.0\GIS.Common.deps.json
+C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\bin\Release\net8.0\GIS.Common.dll
+C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\bin\Release\net8.0\GIS.Common.pdb
+C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\obj\Release\net8.0\GIS.Common.csproj.AssemblyReference.cache
+C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\obj\Release\net8.0\GIS.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\obj\Release\net8.0\GIS.Common.AssemblyInfoInputs.cache
+C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\obj\Release\net8.0\GIS.Common.AssemblyInfo.cs
+C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\obj\Release\net8.0\GIS.Common.csproj.CoreCompileInputs.cache
+C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\obj\Release\net8.0\GIS.Common.dll
+C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\obj\Release\net8.0\refint\GIS.Common.dll
+C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\obj\Release\net8.0\GIS.Common.pdb
+C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\obj\Release\net8.0\ref\GIS.Common.dll

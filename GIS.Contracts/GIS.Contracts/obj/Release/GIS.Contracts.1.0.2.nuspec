@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GIS.Contracts</id>
+    <version>1.0.2</version>
+    <authors>GIS.Contracts</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\kamil\source\repos\Microservices\GIS.Contracts\GIS.Contracts\bin\Release\net8.0\GIS.Contracts.dll" target="lib\net8.0\GIS.Contracts.dll" />
+  </files>
+</package>

@@ -1,0 +1,11 @@
+C:\Users\kamil\source\repos\MicroServices\GIS.Contracts\GIS.Contracts\bin\Release\net8.0\GIS.Contracts.deps.json
+C:\Users\kamil\source\repos\MicroServices\GIS.Contracts\GIS.Contracts\bin\Release\net8.0\GIS.Contracts.dll
+C:\Users\kamil\source\repos\MicroServices\GIS.Contracts\GIS.Contracts\bin\Release\net8.0\GIS.Contracts.pdb
+C:\Users\kamil\source\repos\MicroServices\GIS.Contracts\GIS.Contracts\obj\Release\net8.0\GIS.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamil\source\repos\MicroServices\GIS.Contracts\GIS.Contracts\obj\Release\net8.0\GIS.Contracts.AssemblyInfoInputs.cache
+C:\Users\kamil\source\repos\MicroServices\GIS.Contracts\GIS.Contracts\obj\Release\net8.0\GIS.Contracts.AssemblyInfo.cs
+C:\Users\kamil\source\repos\MicroServices\GIS.Contracts\GIS.Contracts\obj\Release\net8.0\GIS.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\kamil\source\repos\MicroServices\GIS.Contracts\GIS.Contracts\obj\Release\net8.0\GIS.Contracts.dll
+C:\Users\kamil\source\repos\MicroServices\GIS.Contracts\GIS.Contracts\obj\Release\net8.0\refint\GIS.Contracts.dll
+C:\Users\kamil\source\repos\MicroServices\GIS.Contracts\GIS.Contracts\obj\Release\net8.0\GIS.Contracts.pdb
+C:\Users\kamil\source\repos\MicroServices\GIS.Contracts\GIS.Contracts\obj\Release\net8.0\ref\GIS.Contracts.dll

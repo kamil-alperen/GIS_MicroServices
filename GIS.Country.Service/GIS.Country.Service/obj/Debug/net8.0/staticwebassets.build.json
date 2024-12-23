@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "TpqZY41c4mBQlOUWwE8hCs2HJin4+IUjkq5xOs0qdJ8=",
+  "Source": "GIS.Country.Service",
+  "BasePath": "_content/GIS.Country.Service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
