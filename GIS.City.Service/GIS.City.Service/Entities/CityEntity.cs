@@ -9,5 +9,6 @@ namespace GIS.City.Service.Entities
         public string CityName { get; set; }
         public Guid CountryId { get; set; }
         public long CityPopulation { get; set; }
+        public List<DistrictEntity> Districts { get; set; }
     }
 }

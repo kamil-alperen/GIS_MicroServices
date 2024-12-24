@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GIS.Common" Version="1.0.5" />
-    <PackageReference Include="GIS.Contracts" Version="1.0.3" />
+    <PackageReference Include="GIS.Common" Version="1.0.8" />
+    <PackageReference Include="GIS.Contracts" Version="1.0.8" />
     <PackageReference Include="MongoDB.Bson" Version="3.1.0" />
     <PackageReference Include="MongoDB.Driver" Version="3.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />

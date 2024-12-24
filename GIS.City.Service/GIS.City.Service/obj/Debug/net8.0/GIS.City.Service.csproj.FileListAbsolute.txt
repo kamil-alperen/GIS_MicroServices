@@ -68,3 +68,9 @@ C:\Users\kamil\source\repos\Microservices\GIS.City.Service\GIS.City.Service\bin\
 C:\Users\kamil\source\repos\Microservices\GIS.City.Service\GIS.City.Service\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\kamil\source\repos\Microservices\GIS.City.Service\GIS.City.Service\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Users\kamil\source\repos\Microservices\GIS.City.Service\GIS.City.Service\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kamil\source\repos\Microservices\GIS.City.Service\GIS.City.Service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\kamil\source\repos\Microservices\GIS.City.Service\GIS.City.Service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kamil\source\repos\Microservices\GIS.City.Service\GIS.City.Service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kamil\source\repos\Microservices\GIS.City.Service\GIS.City.Service\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kamil\source\repos\Microservices\GIS.City.Service\GIS.City.Service\bin\Debug\net8.0\Npgsql.dll
+C:\Users\kamil\source\repos\Microservices\GIS.City.Service\GIS.City.Service\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

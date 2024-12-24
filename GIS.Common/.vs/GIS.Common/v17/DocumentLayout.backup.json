@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.common\\gis.common\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|solutionrelative:gis.common\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.common\\gis.common\\repositories\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|solutionrelative:gis.common\\repositories\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.common\\gis.common\\gis.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|solutionrelative:gis.common\\gis.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.common\\gis.common\\repositories\\basedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|solutionrelative:gis.common\\repositories\\basedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.common\\gis.common\\repositories\\postgrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|solutionrelative:gis.common\\repositories\\postgrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.common\\gis.common\\repositories\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|solutionrelative:gis.common\\repositories\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.common\\gis.common\\settings\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|solutionrelative:gis.common\\settings\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.common\\gis.common\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|solutionrelative:gis.common\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.common\\gis.common\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|solutionrelative:gis.common\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.common\\gis.common\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|solutionrelative:gis.common\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.common\\gis.common\\settings\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|solutionrelative:gis.common\\settings\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{085BD58C-E7A4-411C-B6E8-870422D31260}|GIS.Common\\GIS.Common.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.common\\gis.common\\settings\\servicesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,28 +46,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IEntity.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\IEntity.cs",
-              "RelativeDocumentMoniker": "GIS.Common\\IEntity.cs",
-              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\IEntity.cs",
-              "RelativeToolTip": "GIS.Common\\IEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PostgreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\Repositories\\PostgreRepository.cs",
+              "RelativeDocumentMoniker": "GIS.Common\\Repositories\\PostgreRepository.cs",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\Repositories\\PostgreRepository.cs",
+              "RelativeToolTip": "GIS.Common\\Repositories\\PostgreRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T16:16:17.13Z",
+              "WhenOpened": "2024-12-24T09:06:52.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Extensions.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\Repositories\\Extensions.cs",
-              "RelativeDocumentMoniker": "GIS.Common\\Repositories\\Extensions.cs",
-              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\Repositories\\Extensions.cs",
-              "RelativeToolTip": "GIS.Common\\Repositories\\Extensions.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAvwDsAAAAAAAAAAAAAAA==",
+              "Title": "BaseDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\Repositories\\BaseDbContext.cs",
+              "RelativeDocumentMoniker": "GIS.Common\\Repositories\\BaseDbContext.cs",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\Repositories\\BaseDbContext.cs",
+              "RelativeToolTip": "GIS.Common\\Repositories\\BaseDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T16:11:53.548Z",
+              "WhenOpened": "2024-12-24T09:03:40.673Z",
               "EditorCaption": ""
             },
             {
@@ -74,14 +78,38 @@
               "RelativeDocumentMoniker": "GIS.Common\\Repositories\\MongoRepository.cs",
               "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\Repositories\\MongoRepository.cs",
               "RelativeToolTip": "GIS.Common\\Repositories\\MongoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T16:13:27.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T08:08:08.157Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\IRepository.cs",
+              "RelativeDocumentMoniker": "GIS.Common\\IRepository.cs",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\IRepository.cs",
+              "RelativeToolTip": "GIS.Common\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:28:39.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\Repositories\\Extensions.cs",
+              "RelativeDocumentMoniker": "GIS.Common\\Repositories\\Extensions.cs",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\Repositories\\Extensions.cs",
+              "RelativeToolTip": "GIS.Common\\Repositories\\Extensions.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:11:53.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MongoDbSettings.cs",
               "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\Settings\\MongoDbSettings.cs",
               "RelativeDocumentMoniker": "GIS.Common\\Settings\\MongoDbSettings.cs",
@@ -89,38 +117,23 @@
               "RelativeToolTip": "GIS.Common\\Settings\\MongoDbSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T16:16:03.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T16:16:03.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\appsettings.json",
               "RelativeDocumentMoniker": "GIS.Common\\appsettings.json",
               "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\appsettings.json",
               "RelativeToolTip": "GIS.Common\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-18T16:18:59.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T16:18:59.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GIS.Common.csproj",
-              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\GIS.Common.csproj",
-              "RelativeDocumentMoniker": "GIS.Common\\GIS.Common.csproj",
-              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\GIS.Common.csproj",
-              "RelativeToolTip": "GIS.Common\\GIS.Common.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-18T16:10:57.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ServiceSettings.cs",
               "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\Settings\\ServiceSettings.cs",
               "RelativeDocumentMoniker": "GIS.Common\\Settings\\ServiceSettings.cs",
@@ -128,8 +141,7 @@
               "RelativeToolTip": "GIS.Common\\Settings\\ServiceSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T16:16:09.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T16:16:09.884Z"
             }
           ]
         }

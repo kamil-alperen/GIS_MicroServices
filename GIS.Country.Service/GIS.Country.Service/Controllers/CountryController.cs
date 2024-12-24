@@ -28,7 +28,7 @@ namespace GIS.Country.Service.Controllers
             Result<IReadOnlyCollection<CountryEntity>> result = await repository.GetAllAsync();
 
             return result.IsSuccess ? Ok(result.Value?.Select(ent => ent.CountryAsDto()).ToList()) : new ObjectResult(Results.Problem(
-                    title: "Error occured",
+                    title: "Error occurred",
                     statusCode: StatusCodes.Status400BadRequest,
                     extensions: new Dictionary<string, object?>
                     {
@@ -42,7 +42,7 @@ namespace GIS.Country.Service.Controllers
         {
             Result<CountryEntity> result = await repository.GetAsync(id);
             return result.IsSuccess ? Ok(result.Value?.CountryAsDto()) : new ObjectResult(Results.Problem(
-                    title: "Error occured",
+                    title: "Error occurred",
                     statusCode: StatusCodes.Status400BadRequest,
                     extensions: new Dictionary<string, object?>
                     {
@@ -64,7 +64,7 @@ namespace GIS.Country.Service.Controllers
             Result<CountryEntity> result = await repository.PostAsync(countryEntity);
 
             return result.IsSuccess ? CreatedAtRoute("Get", new { id = countryCreateDTO.id }, result.Value) : new ObjectResult(Results.Problem(
-                    title: "Error occured",
+                    title: "Error occurred",
                     statusCode: StatusCodes.Status400BadRequest,
                     extensions: new Dictionary<string, object?>
                     {
@@ -86,7 +86,7 @@ namespace GIS.Country.Service.Controllers
             Result<bool> result = await repository.PutAsync(countryEntity);
 
             return result.IsSuccess ? Ok(result.Value) : new ObjectResult(Results.Problem(
-                    title: "Error occured",
+                    title: "Error occurred",
                     statusCode: StatusCodes.Status400BadRequest,
                     extensions: new Dictionary<string, object?>
                     {
@@ -101,7 +101,7 @@ namespace GIS.Country.Service.Controllers
             Result<bool> result = await repository.DeleteAsync(id);
 
             return result.IsSuccess ? Ok(result.Value) : new ObjectResult(Results.Problem(
-                    title: "Error occured",
+                    title: "Error occurred",
                     statusCode: StatusCodes.Status400BadRequest,
                     extensions: new Dictionary<string, object?>
                     {

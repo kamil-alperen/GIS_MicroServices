@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\GIS.Common.csproj": {
-      "version": "1.0.5",
+      "version": "1.0.8",
       "restore": {
         "projectUniqueName": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\GIS.Common.csproj",
         "projectName": "GIS.Common",
@@ -77,6 +77,14 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
             }
           },
           "imports": [

@@ -7,6 +7,7 @@ using MassTransit;
 using GIS.City.Service.Settings;
 using GIS.Common.Settings;
 using System.Reflection;
+using GIS.City.Service.Middlewares;
 
 namespace GIS.City.Service
 {
@@ -31,6 +32,12 @@ namespace GIS.City.Service
             builder.Services.AddAuthenticationSettings();
 
             builder.Services.AddRabbitMQService();
+
+            builder.Services.AddHttpContextAccessor();
+
+            builder.Services.AddExceptionHandler<ExceptionHandlerMiddleware>();
+
+            builder.Services.AddProblemDetails();
 
             var services = builder.Services;
 
@@ -73,6 +80,9 @@ namespace GIS.City.Service
 
             app.UseAuthorization();
 
+            //app.UseMiddleware<CustomExceptionHandlerMiddleware>();
+
+            app.UseExceptionHandler();
 
             app.MapControllers();
 

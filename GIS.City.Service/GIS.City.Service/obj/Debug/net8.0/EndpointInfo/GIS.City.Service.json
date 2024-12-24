@@ -10,35 +10,10 @@
         "tags": [
           "City"
         ],
+        "operationId": "GetAll",
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/CountryCitiesDTO"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/CountryCitiesDTO"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/CountryCitiesDTO"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -48,35 +23,20 @@
         "tags": [
           "City"
         ],
+        "operationId": "Get",
         "parameters": [
           {
-            "name": "countryName",
+            "name": "id",
             "in": "query",
             "schema": {
-              "type": "string"
+              "type": "string",
+              "format": "uuid"
             }
           }
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/CountryCitiesDTO"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CountryCitiesDTO"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CountryCitiesDTO"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -90,41 +50,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CityDTO"
+                "$ref": "#/components/schemas/CityCreateDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CityDTO"
+                "$ref": "#/components/schemas/CityCreateDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CityDTO"
+                "$ref": "#/components/schemas/CityCreateDTO"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/CityDTO"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CityDTO"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CityDTO"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -136,17 +79,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CityDTO"
+                "$ref": "#/components/schemas/CityUpdateDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CityDTO"
+                "$ref": "#/components/schemas/CityUpdateDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CityDTO"
+                "$ref": "#/components/schemas/CityUpdateDTO"
               }
             }
           }
@@ -180,7 +123,7 @@
   },
   "components": {
     "schemas": {
-      "CityDTO": {
+      "CityCreateDTO": {
         "type": "object",
         "properties": {
           "id": {
@@ -202,19 +145,24 @@
         },
         "additionalProperties": false
       },
-      "CountryCitiesDTO": {
+      "CityUpdateDTO": {
         "type": "object",
         "properties": {
-          "countryName": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "cityName": {
             "type": "string",
             "nullable": true
           },
-          "cities": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/CityDTO"
-            },
-            "nullable": true
+          "countryId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "cityPopulation": {
+            "type": "integer",
+            "format": "int64"
           }
         },
         "additionalProperties": false

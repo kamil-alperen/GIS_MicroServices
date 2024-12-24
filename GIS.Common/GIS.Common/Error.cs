@@ -59,11 +59,9 @@ namespace GIS.Common
         public bool IsSuccess { get; private set; }
         public bool IsFailure => !IsSuccess;
 
-
         public static implicit operator Result<T>(T? value) => new Result<T>(value);
 
         public static implicit operator Result<T>(Error? error) => new Result<T>(error);
-
 
         public static Result<T> Success(T? value) => new Result<T>(value);
         public static Result<T> Failure(Error? error) => new Result<T>(error);

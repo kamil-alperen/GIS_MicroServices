@@ -10,11 +10,27 @@ using System.Reflection;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
+using GIS.District.Service;
+using Microsoft.EntityFrameworkCore;
 
 namespace GIS.Common.Repositories
 {
     public static class Extensions
     {
+        public static IServiceCollection AddPostgreSqlService<T>(this IServiceCollection services) where T : class, IEntity
+        {
+            ServiceProvider serviceProvider = services.BuildServiceProvider();
+            IConfiguration configuration = serviceProvider.GetService<IConfiguration>(); 
+            string connStr = configuration.GetSection(nameof(PostgreSqlSettings)).Get<PostgreSqlSettings>().ConnectionString;
+            services.AddDbContext<BaseDbContext<T>>(options => options.UseNpgsql(connStr));
+
+            services.AddSingleton<IRepository<T>>(serviceProvider =>
+            {   
+                return new PostgreRepository<T>();
+            });
+
+            return services;
+        }
         public static IServiceCollection AddAuthenticationSettings(this IServiceCollection services)
         {
             services.AddAuthentication(opt =>

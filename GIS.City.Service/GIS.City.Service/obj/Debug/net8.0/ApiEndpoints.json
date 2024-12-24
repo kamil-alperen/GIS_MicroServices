@@ -8,22 +8,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cityDTO",
-        "Type": "GIS.City.Service.DTOs.CityDTO",
+        "Name": "cityCreateDTO",
+        "Type": "GIS.City.Service.DTOs.CityCreateDTO",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "GIS.City.Service.DTOs.CityDTO",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "GIS.City.Service.Controllers.CityController",
@@ -34,8 +24,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cityDTO",
-        "Type": "GIS.City.Service.DTOs.CityDTO",
+        "Name": "cityUpdateDTO",
+        "Type": "GIS.City.Service.DTOs.CityUpdateDTO",
         "IsRequired": true
       }
     ],
@@ -59,48 +49,30 @@
   },
   {
     "ContainingType": "GIS.City.Service.Controllers.CityController",
-    "Method": "GetCountryAndCities",
+    "Method": "Get",
     "RelativePath": "City/Get",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "countryName",
-        "Type": "System.String",
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": false
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "GIS.City.Service.DTOs.CountryCitiesDTO",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": [],
+    "EndpointName": "Get"
   },
   {
     "ContainingType": "GIS.City.Service.Controllers.CityController",
-    "Method": "GetAllCountriesAndCities",
+    "Method": "GetAllAsync",
     "RelativePath": "City/GetAll",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IReadOnlyCollection\u00601[[GIS.City.Service.DTOs.CountryCitiesDTO, GIS.City.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": [],
+    "EndpointName": "GetAll"
   }
 ]

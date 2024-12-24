@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|solutionrelative:gis.contracts\\gis.contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.contracts\\gis.contracts\\city\\contracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|solutionrelative:gis.contracts\\city\\contracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.contracts\\gis.contracts\\citycontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|solutionrelative:gis.contracts\\citycontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.contracts\\gis.contracts\\districtcontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|solutionrelative:gis.contracts\\districtcontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,20 +34,33 @@
               "RelativeToolTip": "GIS.Contracts\\GIS.Contracts.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-22T09:09:02.738Z",
+              "WhenOpened": "2024-12-24T12:58:34.207Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Contracts.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Contracts\\GIS.Contracts\\City\\Contracts.cs",
-              "RelativeDocumentMoniker": "GIS.Contracts\\City\\Contracts.cs",
-              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Contracts\\GIS.Contracts\\City\\Contracts.cs",
-              "RelativeToolTip": "GIS.Contracts\\City\\Contracts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABNAAAAAAAAAA==",
+              "Title": "CityContracts.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Contracts\\GIS.Contracts\\CityContracts.cs",
+              "RelativeDocumentMoniker": "GIS.Contracts\\CityContracts.cs",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Contracts\\GIS.Contracts\\CityContracts.cs",
+              "RelativeToolTip": "GIS.Contracts\\CityContracts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T07:09:18.703Z",
+              "WhenOpened": "2024-12-24T09:16:34.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DistrictContracts.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Contracts\\GIS.Contracts\\DistrictContracts.cs",
+              "RelativeDocumentMoniker": "GIS.Contracts\\DistrictContracts.cs",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Contracts\\GIS.Contracts\\DistrictContracts.cs",
+              "RelativeToolTip": "GIS.Contracts\\DistrictContracts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T16:20:12.399Z",
               "EditorCaption": ""
             }
           ]

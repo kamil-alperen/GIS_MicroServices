@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.city.service\\gis.city.service\\consume\\districtupdatedconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|solutionrelative:gis.city.service\\consume\\districtupdatedconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.city.service\\gis.city.service\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|solutionrelative:gis.city.service\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.city.service\\gis.city.service\\clients\\countryclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|solutionrelative:gis.city.service\\clients\\countryclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.city.service\\gis.city.service\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|solutionrelative:gis.city.service\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.city.service\\gis.city.service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|solutionrelative:gis.city.service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.city.service\\gis.city.service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|solutionrelative:gis.city.service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.city.service\\gis.city.service\\consume\\districtdeletedconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|solutionrelative:gis.city.service\\consume\\districtdeletedconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.city.service\\gis.city.service\\consume\\districtcreatedconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|solutionrelative:gis.city.service\\consume\\districtcreatedconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.city.service\\gis.city.service\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|solutionrelative:gis.city.service\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.city.service\\gis.city.service\\entities\\districtentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|solutionrelative:gis.city.service\\entities\\districtentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.city.service\\gis.city.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|solutionrelative:gis.city.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.city.service\\gis.city.service\\entities\\cityentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|solutionrelative:gis.city.service\\entities\\cityentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.city.service\\gis.city.service\\middlewares\\customexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|solutionrelative:gis.city.service\\middlewares\\customexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.city.service\\gis.city.service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{611EA087-4A72-4DF4-88FA-C297766030CB}|GIS.City.Service\\GIS.City.Service.csproj|solutionrelative:gis.city.service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,80 +54,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\appsettings.json",
+              "RelativeDocumentMoniker": "GIS.City.Service\\appsettings.json",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\appsettings.json",
+              "RelativeToolTip": "GIS.City.Service\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-23T15:45:58.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Program.cs",
+              "RelativeDocumentMoniker": "GIS.City.Service\\Program.cs",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Program.cs",
+              "RelativeToolTip": "GIS.City.Service\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAawCUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T16:42:21.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "GIS.City.Service\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "GIS.City.Service\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:13:24.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CityController.cs",
               "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Controllers\\CityController.cs",
               "RelativeDocumentMoniker": "GIS.City.Service\\Controllers\\CityController.cs",
               "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Controllers\\CityController.cs",
               "RelativeToolTip": "GIS.City.Service\\Controllers\\CityController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAowGgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAIwGkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-22T17:54:53.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CityEntity.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Entities\\CityEntity.cs",
-              "RelativeDocumentMoniker": "GIS.City.Service\\Entities\\CityEntity.cs",
-              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Entities\\CityEntity.cs",
-              "RelativeToolTip": "GIS.City.Service\\Entities\\CityEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DistrictUpdatedConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Consume\\DistrictUpdatedConsumer.cs",
+              "RelativeDocumentMoniker": "GIS.City.Service\\Consume\\DistrictUpdatedConsumer.cs",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Consume\\DistrictUpdatedConsumer.cs",
+              "RelativeToolTip": "GIS.City.Service\\Consume\\DistrictUpdatedConsumer.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAnwDIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T07:03:46.116Z"
+              "WhenOpened": "2024-12-24T09:31:54.758Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CountryClient.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Clients\\CountryClient.cs",
-              "RelativeDocumentMoniker": "GIS.City.Service\\Clients\\CountryClient.cs",
-              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Clients\\CountryClient.cs",
-              "RelativeToolTip": "GIS.City.Service\\Clients\\CountryClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "DistrictEntity.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Entities\\DistrictEntity.cs",
+              "RelativeDocumentMoniker": "GIS.City.Service\\Entities\\DistrictEntity.cs",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Entities\\DistrictEntity.cs",
+              "RelativeToolTip": "GIS.City.Service\\Entities\\DistrictEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:56:44.619Z"
+              "WhenOpened": "2024-12-24T09:40:19.375Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Program.cs",
-              "RelativeDocumentMoniker": "GIS.City.Service\\Program.cs",
-              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Program.cs",
-              "RelativeToolTip": "GIS.City.Service\\Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Extensions.cs",
+              "RelativeDocumentMoniker": "GIS.City.Service\\Extensions.cs",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Extensions.cs",
+              "RelativeToolTip": "GIS.City.Service\\Extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:42:21.738Z"
+              "WhenOpened": "2024-12-23T14:05:29.607Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\appsettings.json",
-              "RelativeDocumentMoniker": "GIS.City.Service\\appsettings.json",
-              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\appsettings.json",
-              "RelativeToolTip": "GIS.City.Service\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-22T07:16:45.05Z"
+              "Title": "DistrictDeletedConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Consume\\DistrictDeletedConsumer.cs",
+              "RelativeDocumentMoniker": "GIS.City.Service\\Consume\\DistrictDeletedConsumer.cs",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Consume\\DistrictDeletedConsumer.cs",
+              "RelativeToolTip": "GIS.City.Service\\Consume\\DistrictDeletedConsumer.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T09:31:53.907Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "DistrictCreatedConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Consume\\DistrictCreatedConsumer.cs",
+              "RelativeDocumentMoniker": "GIS.City.Service\\Consume\\DistrictCreatedConsumer.cs",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Consume\\DistrictCreatedConsumer.cs",
+              "RelativeToolTip": "GIS.City.Service\\Consume\\DistrictCreatedConsumer.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAnwDwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T09:31:24.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Middlewares\\CustomExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "GIS.City.Service\\Middlewares\\CustomExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Middlewares\\CustomExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "GIS.City.Service\\Middlewares\\CustomExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:13:44.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "GIS.City.Service\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.City.Service\\GIS.City.Service\\Properties\\launchSettings.json",
               "RelativeToolTip": "GIS.City.Service\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-21T07:29:56.778Z"
+              "WhenOpened": "2024-12-21T07:29:56.778Z",
+              "EditorCaption": ""
             }
           ]
         }

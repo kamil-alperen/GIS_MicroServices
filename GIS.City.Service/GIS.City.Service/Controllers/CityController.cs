@@ -4,8 +4,7 @@ using GIS.City.Service.Entities;
 using GIS.Common;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
-using GIS.Contracts;
-using GIS.Contracts.City;
+using GIS.CityContracts;
 using MassTransit;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -32,7 +31,7 @@ namespace GIS.City.Service.Controllers
             Result<IReadOnlyCollection<CityEntity>> result = await _repository.GetAllAsync();
 
             return result.IsSuccess ? Ok(result.Value?.Select(ent => ent.AsCityDTO()).ToList()) : new ObjectResult(Results.Problem(
-                    title: "Error occured",
+                    title: "Error occurred",
                     statusCode: StatusCodes.Status400BadRequest,
                     extensions: new Dictionary<string, object?>
                     {
@@ -47,7 +46,7 @@ namespace GIS.City.Service.Controllers
             Result<CityEntity> result = await _repository.GetAsync(id);
 
             return result.IsSuccess ? Ok(result.Value?.AsCityDTO()) : new ObjectResult(Results.Problem(
-                    title: "Error occured",
+                    title: "Error occurred",
                     statusCode: StatusCodes.Status400BadRequest,
                     extensions: new Dictionary<string, object?>
                     {
@@ -57,14 +56,14 @@ namespace GIS.City.Service.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateCity(CityDTO cityDTO)
+        public async Task<IActionResult> CreateCity([FromBody] CityCreateDTO cityCreateDTO)
         {
             CityEntity cityEntity = new CityEntity()
             {
-                Id = cityDTO.id,
-                CityName = cityDTO.cityName,
-                CityPopulation = cityDTO.cityPopulation,
-                CountryId = cityDTO.countryId
+                Id = cityCreateDTO.id,
+                CityName = cityCreateDTO.cityName,
+                CityPopulation = cityCreateDTO.cityPopulation,
+                CountryId = cityCreateDTO.countryId
             };
 
             Result<CityEntity> result = await _repository.PostAsync(cityEntity);
@@ -72,13 +71,13 @@ namespace GIS.City.Service.Controllers
 
             if (createdEntity != null)
             {
-                _publishEndpoint.Publish(new CityCreated(cityEntity.Id, cityEntity.CityName, cityEntity.CountryId, cityEntity.CityPopulation));
+                await _publishEndpoint.Publish(new CityCreated(cityEntity.Id, cityEntity.CityName, cityEntity.CountryId, cityEntity.CityPopulation));
                 return Ok(createdEntity.AsCityDTO());
             }
             else
             {
                 return new ObjectResult(Results.Problem(
-                        title: "Error occured",
+                        title: "Error occurred",
                         statusCode: StatusCodes.Status400BadRequest,
                         extensions: new Dictionary<string, object?>
                         {
@@ -89,56 +88,41 @@ namespace GIS.City.Service.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateCity(CityDTO cityDTO)
+        public async Task<IActionResult> UpdateCity([FromBody] CityUpdateDTO cityUpdateDTO)
         {
             CityEntity cityEntity = new CityEntity()
             {
-                Id = cityDTO.id,
-                CityName = cityDTO.cityName,
-                CityPopulation = cityDTO.cityPopulation,
-                CountryId = cityDTO.countryId
+                Id = cityUpdateDTO.id,
+                CityName = cityUpdateDTO.cityName,
+                CityPopulation = cityUpdateDTO.cityPopulation,
+                CountryId = cityUpdateDTO.countryId
             };
 
-            Result<CityEntity> result = await _repository.GetAsync(cityEntity.Id);
-            CityEntity? previousCity = result.IsSuccess ? result.Value : null;
+            Result<CityEntity> previousCity = await _repository.GetAsync(cityEntity.Id);
 
-            if (previousCity != null)
+            Result<bool> updateResult = await _repository.PutAsync(cityEntity);
+
+            if (previousCity.IsSuccess && updateResult.IsSuccess)
             {
-                Result<bool> updateResult = await _repository.PutAsync(cityEntity);
-                bool updated = updateResult.IsSuccess ? updateResult.Value : false;
-
-                if (updated)
-                {
-                    _publishEndpoint.Publish(new CityUpdated(cityEntity.Id, cityEntity.CityName, previousCity.CountryId, cityEntity.CountryId, cityEntity.CityPopulation));
-                    return Ok();
-                }
-                else
-                {
-                    return new ObjectResult(Results.Problem(
-                            title: "Error occured",
-                            statusCode: StatusCodes.Status400BadRequest,
-                            extensions: new Dictionary<string, object?>
-                            {
-                            { "errors", new[] { updateResult.Error } }
-                            }
-                        ));
-                }
+                await _publishEndpoint.Publish(new CityUpdated(cityEntity.Id, cityEntity.CityName, previousCity.Value.CountryId, cityEntity.CountryId, cityEntity.CityPopulation, null));
+                return Ok(updateResult.Value);
             }
             else
             {
                 return new ObjectResult(Results.Problem(
-                            title: "Error occured",
-                            statusCode: StatusCodes.Status400BadRequest,
-                            extensions: new Dictionary<string, object?>
-                            {
-                            { "errors", new[] { result.Error } }
-                            }
-                        ));
+                        title: "Error occurred",
+                        statusCode: StatusCodes.Status400BadRequest,
+                        extensions: new Dictionary<string, object?>
+                        {
+                                { "errorsPrevious", new[] { previousCity.Error } },
+                                { "errorsCurrent", new[] { updateResult.Error } }
+                        }
+                    ));
             }
         }
 
         [HttpDelete]
-        public async Task<IActionResult> DeleteCity(string cityName)
+        public async Task<IActionResult> DeleteCity([FromQuery] string cityName)
         {
             Result<CityEntity> result = await _repository.GetAsync(entity => entity.CityName == cityName);
             CityEntity? cityEntity = result.IsSuccess ? result.Value : null;
@@ -150,17 +134,17 @@ namespace GIS.City.Service.Controllers
 
                 if (deleted)
                 {
-                    _publishEndpoint.Publish(new CityDeleted(cityEntity.Id, cityEntity.CountryId));
+                    await _publishEndpoint.Publish(new CityDeleted(cityEntity.Id, cityEntity.CountryId));
                     return Ok();
                 }
                 else
                 {
                     return new ObjectResult(Results.Problem(
-                            title: "Error occured",
+                            title: "Error occurred",
                             statusCode: StatusCodes.Status400BadRequest,
                             extensions: new Dictionary<string, object?>
                             {
-                            { "errors", new[] { deleteResult.Error } }
+                                { "errors", new[] { deleteResult.Error } }
                             }
                         ));
                 }
@@ -168,11 +152,11 @@ namespace GIS.City.Service.Controllers
             else
             {
                 return new ObjectResult(Results.Problem(
-                            title: "Error occured",
+                            title: "Error occurred",
                             statusCode: StatusCodes.Status400BadRequest,
                             extensions: new Dictionary<string, object?>
                             {
-                            { "errors", new[] { result.Error } }
+                                { "errors", new[] { result.Error } }
                             }
                         ));
             }

@@ -1,4 +1,5 @@
 using System.Text;
+using GIS.City.Service.Middlewares;
 using GIS.Common.Repositories;
 using GIS.Country.Service.Entities;
 
@@ -24,6 +25,9 @@ namespace GIS.Country.Service
 
             builder.Services.AddRabbitMQService();
 
+            builder.Services.AddExceptionHandler<ExceptionHandlerMiddleware>();
+            builder.Services.AddProblemDetails();
+
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
@@ -44,6 +48,9 @@ namespace GIS.Country.Service
 
             app.UseAuthorization();
 
+            //app.UseMiddleware<CustomExceptionHandlerMiddleware>();
+
+            app.UseExceptionHandler();
 
             app.MapControllers();
 
