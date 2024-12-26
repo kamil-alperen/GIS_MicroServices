@@ -1,8 +1,9 @@
 # MicroServices
 
-* Country database should be located at MongoDB -> Country database -> info collection <br />
-* City database should be located at MongoDB -> City database -> info collection <br />
-* PostgreSQL database should be downloaded and its settings should be written in appsettings.json file of GIS.District.Service repository. When dotnet-ef migrations added and database updated, district database and info table will be created <br />
+* PostgreSQL database should be downloaded and its settings should be written in appsettings.json files.
+* MongoDB -> Country database -> info collection should be created <br />
+* MongoDB -> City database -> info collection should be created <br />
+* PostgreSQL database should be downloaded and its settings should be written in appsettings.json files. When dotnet-ef migrations added and database updated, district database and info table will be created <br />
 * RabbitMQ should be downloaded <br />
 
 # Database Screenshots
