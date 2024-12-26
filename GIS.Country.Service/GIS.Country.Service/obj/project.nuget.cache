@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "HcKEC5GCNS8=",
+  "dgSpecHash": "0jfJM/xG1Dk=",
   "success": true,
   "projectFilePath": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Country.Service\\GIS.Country.Service\\GIS.Country.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kamil\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
-    "C:\\Users\\kamil\\.nuget\\packages\\gis.common\\1.0.8\\gis.common.1.0.8.nupkg.sha512",
-    "C:\\Users\\kamil\\.nuget\\packages\\gis.contracts\\1.0.8\\gis.contracts.1.0.8.nupkg.sha512",
+    "C:\\Users\\kamil\\.nuget\\packages\\gis.common\\1.0.29\\gis.common.1.0.29.nupkg.sha512",
+    "C:\\Users\\kamil\\.nuget\\packages\\gis.contracts\\1.0.11\\gis.contracts.1.0.11.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\masstransit\\8.3.4\\masstransit.8.3.4.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\masstransit.abstractions\\8.3.4\\masstransit.abstractions.8.3.4.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\masstransit.aspnetcore\\7.3.1\\masstransit.aspnetcore.7.3.1.nupkg.sha512",

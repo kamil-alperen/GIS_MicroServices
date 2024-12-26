@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "GIS.Country.Service.Controllers.CountryController",
-    "Method": "Post",
+    "Method": "CreateCountry",
     "RelativePath": "Country",
     "HttpMethod": "POST",
     "IsController": true,
@@ -17,7 +17,7 @@
   },
   {
     "ContainingType": "GIS.Country.Service.Controllers.CountryController",
-    "Method": "Put",
+    "Method": "UpdateCountry",
     "RelativePath": "Country",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -29,21 +29,11 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Boolean",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "GIS.Country.Service.Controllers.CountryController",
-    "Method": "Delete",
+    "Method": "DeleteCountry",
     "RelativePath": "Country",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -55,17 +45,7 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Boolean",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "GIS.Country.Service.Controllers.CountryController",
@@ -81,17 +61,7 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "GIS.Country.Service.DTOs.CountryDTO",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
+    "ReturnTypes": [],
     "EndpointName": "Get"
   },
   {
@@ -102,17 +72,18 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[GIS.Country.Service.DTOs.CountryDTO, GIS.Country.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
+    "ReturnTypes": [],
     "EndpointName": "GetAll"
+  },
+  {
+    "ContainingType": "GIS.Country.Service.Controllers.CountryController",
+    "Method": "GetIdsAsync",
+    "RelativePath": "Country/GetIds",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetIds"
   }
 ]

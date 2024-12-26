@@ -10,3 +10,5 @@ C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\obj\Debug\net8.0
 C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\obj\Debug\net8.0\refint\GIS.Common.dll
 C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\obj\Debug\net8.0\GIS.Common.pdb
 C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\obj\Debug\net8.0\ref\GIS.Common.dll
+C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\bin\Debug\net8.0\GIS.Common.runtimeconfig.json
+C:\Users\kamil\source\repos\Microservices\GIS.Common\GIS.Common\obj\Debug\net8.0\GIS.Common.genruntimeconfig.cache

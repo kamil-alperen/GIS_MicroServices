@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{378D9D68-D2A1-477A-B004-5A99E9732DDF}|GIS.Authentication.Service\\GIS.Authentication.Service.csproj|solutionrelative:gis.authentication.service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{378D9D68-D2A1-477A-B004-5A99E9732DDF}|GIS.Authentication.Service\\GIS.Authentication.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.authentication.service\\gis.authentication.service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{378D9D68-D2A1-477A-B004-5A99E9732DDF}|GIS.Authentication.Service\\GIS.Authentication.Service.csproj|solutionrelative:gis.authentication.service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{378D9D68-D2A1-477A-B004-5A99E9732DDF}|GIS.Authentication.Service\\GIS.Authentication.Service.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.authentication.service\\gis.authentication.service\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{378D9D68-D2A1-477A-B004-5A99E9732DDF}|GIS.Authentication.Service\\GIS.Authentication.Service.csproj|solutionrelative:gis.authentication.service\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,8 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Authentication.Service\\GIS.Authentication.Service\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GIS.Authentication.Service\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Authentication.Service\\GIS.Authentication.Service\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GIS.Authentication.Service\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-25T09:47:31.586Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,14 +48,14 @@
               "RelativeDocumentMoniker": "GIS.Authentication.Service\\Program.cs",
               "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Authentication.Service\\GIS.Authentication.Service\\Program.cs",
               "RelativeToolTip": "GIS.Authentication.Service\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T08:59:44.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Authentication.Service\\GIS.Authentication.Service\\appsettings.json",
               "RelativeDocumentMoniker": "GIS.Authentication.Service\\appsettings.json",
@@ -51,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Authentication.Service\\GIS.Authentication.Service\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "GIS.Authentication.Service\\Controllers\\LoginController.cs",
@@ -59,8 +75,7 @@
               "RelativeToolTip": "GIS.Authentication.Service\\Controllers\\LoginController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAxwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T06:57:55.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T06:57:55.733Z"
             }
           ]
         }

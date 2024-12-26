@@ -51,6 +51,7 @@ namespace GIS.Country.Service.Consume
                             Id = cityUpdated.id,
                             Name = cityUpdated.cityName != default ? cityUpdated.cityName : updateCity.Name,
                             Population = cityUpdated.cityPopulation != default ? cityUpdated.cityPopulation : updateCity.Population,
+                            Districts = cityUpdated.Districts != null ? cityUpdated.Districts : null
                         };
 
                         country.Cities[country.Cities.FindIndex(city => city.Id == cityUpdated.id)] = updateCity;

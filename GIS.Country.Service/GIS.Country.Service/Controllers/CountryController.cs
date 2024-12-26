@@ -22,6 +22,21 @@ namespace GIS.Country.Service.Controllers
             this.repository = repository;
         }
 
+        [HttpGet("GetIds", Name = "GetIds")]
+        public async Task<IActionResult> GetIdsAsync()
+        {
+            Result<IReadOnlyCollection<CountryEntity>> result = await repository.GetAllAsync();
+
+            return result.IsSuccess ? Ok(result.Value?.Select(ent => ent.AsCountry()).ToList()) : new ObjectResult(Results.Problem(
+                    title: "Error occurred",
+                    statusCode: StatusCodes.Status400BadRequest,
+                    extensions: new Dictionary<string, object?>
+                    {
+                        { "errors", new[] { result.Error } }
+                    }
+                ));
+        }
+
         [HttpGet("GetAll", Name = "GetAll")]
         public async Task<IActionResult> GetAllAsync()
         {

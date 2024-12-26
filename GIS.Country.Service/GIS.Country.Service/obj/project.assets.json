@@ -18,7 +18,7 @@
           }
         }
       },
-      "GIS.Common/1.0.8": {
+      "GIS.Common/1.0.29": {
         "type": "package",
         "dependencies": {
           "MassTransit.AspNetCore": "7.3.1",
@@ -32,13 +32,17 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
         },
         "compile": {
-          "lib/net8.0/GIS.Common.dll": {}
+          "lib/net8.0/GIS.Common.dll": {
+            "related": ".runtimeconfig.json"
+          }
         },
         "runtime": {
-          "lib/net8.0/GIS.Common.dll": {}
+          "lib/net8.0/GIS.Common.dll": {
+            "related": ".runtimeconfig.json"
+          }
         }
       },
-      "GIS.Contracts/1.0.8": {
+      "GIS.Contracts/1.0.11": {
         "type": "package",
         "compile": {
           "lib/net8.0/GIS.Contracts.dll": {}
@@ -1054,24 +1058,25 @@
         "lib/netstandard2.1/DnsClient.xml"
       ]
     },
-    "GIS.Common/1.0.8": {
-      "sha512": "Pfnh7NMYDwYldO/kxcZZW/uF+obHZnTSLgBr7I3HpeoClvnpEsr7rrUw+CD5bm2WYSNh2KnyRJOP5RG6ffkLGg==",
+    "GIS.Common/1.0.29": {
+      "sha512": "gMxfK3dkTuTUp8lrCGonzRYTh5r4nQZjsSOi3GGtV6wKwLjcW19laNMkB1qDrNI+Qt8AepmVEszGWQ0mS4rP/w==",
       "type": "package",
-      "path": "gis.common/1.0.8",
+      "path": "gis.common/1.0.29",
       "files": [
         ".nupkg.metadata",
-        "gis.common.1.0.8.nupkg.sha512",
+        "gis.common.1.0.29.nupkg.sha512",
         "gis.common.nuspec",
-        "lib/net8.0/GIS.Common.dll"
+        "lib/net8.0/GIS.Common.dll",
+        "lib/net8.0/GIS.Common.runtimeconfig.json"
       ]
     },
-    "GIS.Contracts/1.0.8": {
-      "sha512": "jz7I9wTSjwBx2edeEG0vAx/C4LobF3+kv9TGWDF4j7rSv9LaPMIrcLp34SMAD4v1E1Gn7gxhuKcP7Bwr0Ixmaw==",
+    "GIS.Contracts/1.0.11": {
+      "sha512": "O7gWszCvPN7TNVSWVQXqHB1XdcbKsjsH4qHblkeN7ATCwWMuW9XXjkUGNiN9Dr1xqZyVJDJDuX2IfbywE3dQ2w==",
       "type": "package",
-      "path": "gis.contracts/1.0.8",
+      "path": "gis.contracts/1.0.11",
       "files": [
         ".nupkg.metadata",
-        "gis.contracts.1.0.8.nupkg.sha512",
+        "gis.contracts.1.0.11.nupkg.sha512",
         "gis.contracts.nuspec",
         "lib/net8.0/GIS.Contracts.dll"
       ]
@@ -2873,8 +2878,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "GIS.Common >= 1.0.8",
-      "GIS.Contracts >= 1.0.8",
+      "GIS.Common >= 1.0.29",
+      "GIS.Contracts >= 1.0.11",
       "MongoDB.Bson >= 3.1.0",
       "MongoDB.Driver >= 3.1.0",
       "Swashbuckle.AspNetCore >= 6.6.2",
@@ -2933,11 +2938,11 @@
         "dependencies": {
           "GIS.Common": {
             "target": "Package",
-            "version": "[1.0.8, )"
+            "version": "[1.0.29, )"
           },
           "GIS.Contracts": {
             "target": "Package",
-            "version": "[1.0.8, )"
+            "version": "[1.0.11, )"
           },
           "MongoDB.Bson": {
             "target": "Package",

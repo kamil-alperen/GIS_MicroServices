@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "GIS.Country.Service/1.0.0": {
         "dependencies": {
-          "GIS.Common": "1.0.8",
-          "GIS.Contracts": "1.0.8",
+          "GIS.Common": "1.0.9",
+          "GIS.Contracts": "1.0.10",
           "MongoDB.Bson": "3.1.0",
           "MongoDB.Driver": "3.1.0",
           "Swashbuckle.AspNetCore": "6.6.2",
@@ -30,7 +30,7 @@
           }
         }
       },
-      "GIS.Common/1.0.8": {
+      "GIS.Common/1.0.9": {
         "dependencies": {
           "MassTransit.AspNetCore": "7.3.1",
           "MassTransit.RabbitMQ": "8.3.4",
@@ -44,16 +44,16 @@
         },
         "runtime": {
           "lib/net8.0/GIS.Common.dll": {
-            "assemblyVersion": "1.0.8.0",
-            "fileVersion": "1.0.8.0"
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.9.0"
           }
         }
       },
-      "GIS.Contracts/1.0.8": {
+      "GIS.Contracts/1.0.10": {
         "runtime": {
           "lib/net8.0/GIS.Contracts.dll": {
-            "assemblyVersion": "1.0.8.0",
-            "fileVersion": "1.0.8.0"
+            "assemblyVersion": "1.0.10.0",
+            "fileVersion": "1.0.10.0"
           }
         }
       },
@@ -551,19 +551,19 @@
       "path": "dnsclient/1.6.1",
       "hashPath": "dnsclient.1.6.1.nupkg.sha512"
     },
-    "GIS.Common/1.0.8": {
+    "GIS.Common/1.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Pfnh7NMYDwYldO/kxcZZW/uF+obHZnTSLgBr7I3HpeoClvnpEsr7rrUw+CD5bm2WYSNh2KnyRJOP5RG6ffkLGg==",
-      "path": "gis.common/1.0.8",
-      "hashPath": "gis.common.1.0.8.nupkg.sha512"
+      "sha512": "sha512-TlgDnXMmxu4EKty86G7STy4HJDxn75IW3K6XLlDuy/W5yHFKKvWELPgqjbRs5cIm5AEe+jMazFhH0pEcxS848w==",
+      "path": "gis.common/1.0.9",
+      "hashPath": "gis.common.1.0.9.nupkg.sha512"
     },
-    "GIS.Contracts/1.0.8": {
+    "GIS.Contracts/1.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jz7I9wTSjwBx2edeEG0vAx/C4LobF3+kv9TGWDF4j7rSv9LaPMIrcLp34SMAD4v1E1Gn7gxhuKcP7Bwr0Ixmaw==",
-      "path": "gis.contracts/1.0.8",
-      "hashPath": "gis.contracts.1.0.8.nupkg.sha512"
+      "sha512": "sha512-v0ysTeWH8v92oJqXCUnpzEjMR94dtfvg3f1USxQlhheWXW9HuLbXPBJDydenRCITuCas+aOEs9iskctf+rZrmA==",
+      "path": "gis.contracts/1.0.10",
+      "hashPath": "gis.contracts.1.0.10.nupkg.sha512"
     },
     "MassTransit/8.3.4": {
       "type": "package",

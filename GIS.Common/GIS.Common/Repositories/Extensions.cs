@@ -17,16 +17,12 @@ namespace GIS.Common.Repositories
 {
     public static class Extensions
     {
-        public static IServiceCollection AddPostgreSqlService<T>(this IServiceCollection services) where T : class, IEntity
+        public static IServiceCollection AddPostgreSqlService<T, K>(this IServiceCollection services) where T : class, IEntity where K : DbContext
         {
-            ServiceProvider serviceProvider = services.BuildServiceProvider();
-            IConfiguration configuration = serviceProvider.GetService<IConfiguration>(); 
-            string connStr = configuration.GetSection(nameof(PostgreSqlSettings)).Get<PostgreSqlSettings>().ConnectionString;
-            services.AddDbContext<BaseDbContext<T>>(options => options.UseNpgsql(connStr));
-
-            services.AddSingleton<IRepository<T>>(serviceProvider =>
-            {   
-                return new PostgreRepository<T>();
+            services.AddScoped<IRepository<T>>(serviceProvider =>
+            {
+                K dbContext = serviceProvider.GetRequiredService<K>();
+                return new PostgreRepository<T, K>(dbContext);
             });
 
             return services;

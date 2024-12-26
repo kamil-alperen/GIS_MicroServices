@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\GIS.Common.csproj": {
-      "version": "1.0.8",
+      "version": "1.0.29",
       "restore": {
         "projectUniqueName": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Common\\GIS.Common\\GIS.Common.csproj",
         "projectName": "GIS.Common",
@@ -59,6 +59,12 @@
               "version": "[8.3.4, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.11, )"
             },

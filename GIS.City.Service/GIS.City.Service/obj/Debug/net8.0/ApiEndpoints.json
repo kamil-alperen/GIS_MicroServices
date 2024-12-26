@@ -74,5 +74,16 @@
     "Parameters": [],
     "ReturnTypes": [],
     "EndpointName": "GetAll"
+  },
+  {
+    "ContainingType": "GIS.City.Service.Controllers.CityController",
+    "Method": "GetIdsAsync",
+    "RelativePath": "City/GetIds",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetIds"
   }
 ]

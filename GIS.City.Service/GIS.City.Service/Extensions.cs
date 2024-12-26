@@ -7,7 +7,12 @@ namespace GIS.City.Service
     {
         public static CityDTO AsCityDTO(this CityEntity entity)
         {
-            return new CityDTO(entity.Id, entity.CityName, entity.CountryId, entity.CityPopulation, entity.Districts.Select(district => district.AsDistrictDTO()).ToList());
+            return new CityDTO(entity.Id, entity.CityName, entity.CountryId, entity.CityPopulation, entity.Districts != null ? entity.Districts.Select(district => district.AsDistrictDTO()).ToList() : null);
+        }
+
+        public static CityContracts.City AsCity(this CityEntity entity)
+        {
+            return new CityContracts.City(entity.Id);
         }
 
         public static DistrictDTO AsDistrictDTO(this DistrictEntity entity)
@@ -15,9 +20,9 @@ namespace GIS.City.Service
             return new DistrictDTO(entity.Name, entity.Population);
         }
 
-        public static GIS.DistrictContracts.District AsDistrict(this DistrictEntity districtEntity)
+        public static DistrictContracts.DistrictItem AsDistrictItem(this DistrictEntity districtEntity)
         {
-            return new DistrictContracts.District(districtEntity.Name, districtEntity.Population);
+            return new DistrictContracts.DistrictItem(districtEntity.Name, districtEntity.Population);
         }
     }
 }

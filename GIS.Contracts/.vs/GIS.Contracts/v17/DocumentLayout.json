@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Contracts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.contracts\\gis.contracts\\gis.contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|solutionrelative:gis.contracts\\gis.contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.contracts\\gis.contracts\\districtcontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|solutionrelative:gis.contracts\\districtcontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.contracts\\gis.contracts\\citycontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|solutionrelative:gis.contracts\\citycontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.contracts\\gis.contracts\\districtcontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|solutionrelative:gis.contracts\\districtcontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|c:\\users\\kamil\\source\\repos\\microservices\\gis.contracts\\gis.contracts\\gis.contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4E2CF2F3-CFB1-48D4-AB9F-C81B4AFC02B6}|GIS.Contracts\\GIS.Contracts.csproj|solutionrelative:gis.contracts\\gis.contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,12 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GIS.Contracts",
+              "DocumentIndex": 2,
+              "Title": "GIS.Contracts.csproj",
               "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Contracts\\GIS.Contracts\\GIS.Contracts.csproj",
               "RelativeDocumentMoniker": "GIS.Contracts\\GIS.Contracts.csproj",
               "ToolTip": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Contracts\\GIS.Contracts\\GIS.Contracts.csproj",
@@ -52,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DistrictContracts.cs",
               "DocumentMoniker": "C:\\Users\\kamil\\source\\repos\\Microservices\\GIS.Contracts\\GIS.Contracts\\DistrictContracts.cs",
               "RelativeDocumentMoniker": "GIS.Contracts\\DistrictContracts.cs",

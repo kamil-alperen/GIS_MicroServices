@@ -5,6 +5,19 @@
     "version": "1.0"
   },
   "paths": {
+    "/Country/GetIds": {
+      "get": {
+        "tags": [
+          "Country"
+        ],
+        "operationId": "GetIds",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Country/GetAll": {
       "get": {
         "tags": [
@@ -13,33 +26,7 @@
         "operationId": "GetAll",
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/CountryDTO"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/CountryDTO"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/CountryDTO"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -62,24 +49,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/CountryDTO"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CountryDTO"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CountryDTO"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -139,24 +109,7 @@
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -176,24 +129,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -201,20 +137,6 @@
   },
   "components": {
     "schemas": {
-      "CityDTO": {
-        "type": "object",
-        "properties": {
-          "cityName": {
-            "type": "string",
-            "nullable": true
-          },
-          "cityPopulation": {
-            "type": "integer",
-            "format": "int64"
-          }
-        },
-        "additionalProperties": false
-      },
       "CountryCreateDTO": {
         "type": "object",
         "properties": {
@@ -229,31 +151,6 @@
           "population": {
             "type": "integer",
             "format": "int64"
-          }
-        },
-        "additionalProperties": false
-      },
-      "CountryDTO": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "population": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "cities": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/CityDTO"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false

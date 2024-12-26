@@ -8,6 +8,7 @@ using GIS.City.Service.Settings;
 using GIS.Common.Settings;
 using System.Reflection;
 using GIS.City.Service.Middlewares;
+using GIS.City.Service.Client;
 
 namespace GIS.City.Service
 {
@@ -24,8 +25,6 @@ namespace GIS.City.Service
 
             // Add services to the container.
 
-            builder.Services.AddHttpContextAccessor();
-
             builder.Services.AddMongoDatabase()
                 .AddMongoRepository<CityEntity>("info");
 
@@ -33,32 +32,15 @@ namespace GIS.City.Service
 
             builder.Services.AddRabbitMQService();
 
-            builder.Services.AddHttpContextAccessor();
-
             builder.Services.AddExceptionHandler<ExceptionHandlerMiddleware>();
-
             builder.Services.AddProblemDetails();
 
-            var services = builder.Services;
+            builder.Services.AddHttpContextAccessor();
 
-            /*builder.Services.AddHttpClient<CountryClient>(opt =>
+            builder.Services.AddHttpClient<CountryClient>(opt =>
             {
                 opt.BaseAddress = new Uri("https://localhost:44330");
-            }).AddTransientHttpErrorPolicy(builder => builder.Or<TimeoutRejectedException>().WaitAndRetryAsync(
-                5,
-                retryAttempt =>
-                {
-                    return TimeSpan.FromSeconds(Math.Pow(2, retryAttempt));
-                },
-                onRetry: (outcome, timespan, retryAttempt, _) =>
-                {
-                    ServiceProvider serviceProvider = services.BuildServiceProvider();
-                    serviceProvider.GetService<ILogger<CountryClient>>().LogInformation($"CountryClient : Retry_{retryAttempt} attempt is made");
-                }
-            )).AddPolicyHandler(Policy.TimeoutAsync<HttpResponseMessage>(
-                TimeSpan.FromSeconds(1),
-                TimeoutStrategy.Pessimistic
-            ));*/
+            }).AddPolicyHandler(Policy.TimeoutAsync<HttpResponseMessage>(15));
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

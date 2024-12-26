@@ -9,5 +9,7 @@ namespace GIS.Country.Service.Entities
         public string Name { get; set; }
 
         public long Population { get; set; }
+
+        public List<DistrictContracts.DistrictItem> Districts { get; set; }
     }
 }

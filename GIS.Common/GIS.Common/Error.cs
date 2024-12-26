@@ -46,7 +46,7 @@ namespace GIS.Common
 
         private Result(T? value)
         {
-            IsSuccess = true;
+            IsSuccess = value != null;
             Value = value;
         }
 

@@ -5,6 +5,19 @@
     "version": "1.0"
   },
   "paths": {
+    "/City/GetIds": {
+      "get": {
+        "tags": [
+          "City"
+        ],
+        "operationId": "GetIds",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/City/GetAll": {
       "get": {
         "tags": [
