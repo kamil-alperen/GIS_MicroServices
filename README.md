@@ -1,8 +1,8 @@
 # MicroServices
 
-Country database should be located at MongoDB -> Country database -> info collection 
-City database should be located at MongoDB -> City database -> info collection 
-District database should be located at PostgreSQL -> district database (will be created when dotnet-ef migration added) -> info table (will be created when dotnet-ef database update)
+Country database should be located at MongoDB -> Country database -> info collection <br />
+City database should be located at MongoDB -> City database -> info collection <br />
+District database should be located at PostgreSQL -> district database (will be created when dotnet-ef migration added) -> info table (will be created when dotnet-ef database update) <br />
 
 # Database Screenshots
 
@@ -13,6 +13,8 @@ District database should be located at PostgreSQL -> district database (will be 
 ![DistrictInfo](https://github.com/user-attachments/assets/9dc2ade1-f8f5-484a-a0eb-25a61ca7c728)
 
 # Postman Requests
+
+![Login](https://github.com/user-attachments/assets/bd1fcb22-c395-47fe-b8ee-2384885895a1)
 
 ![Authorization](https://github.com/user-attachments/assets/bda8886f-8e45-43b7-b92b-dd400403611b)
 
